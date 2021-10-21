@@ -1,0 +1,45 @@
+{
+  "Employees": [
+    {
+      "id": 1,
+      "Name": "Ahmed",
+      "Position": "IT",
+      "imgUrl": "https://lh3.googleusercontent.com/proxy/XzaPKArb72GtCPPJ2hbvC3msOlaMb4O3mCUMU56CYblqagtf5cUhgJTe3Sev056B55iGHm5nnhSl-vBk-S-Pt22iwoDOGIZDp03CwvMq4HlR05lpy1U-HuQtF01o3X2O3d_ovg3cYpRsWFk"
+    },
+    {
+      "id": 2,
+      "Name": "Tarek",
+      "Position": "HR",
+      "imgUrl": "https://images.assetsdelivery.com/compings_v2/mdranahamid/mdranahamid2001/mdranahamid200100405.jpg"
+    },
+    {
+      "id": 3,
+      "Name": "Emad",
+      "Position": "Marketing",
+      "imgUrl": "https://image.shutterstock.com/image-vector/large-set-vector-logos-market-260nw-1005616138.jpg"
+    },
+    {
+      "Name": "Khaled",
+      "Position": "Sales",
+      "id": 4,
+      "imgUrl": "https://images.creativemarket.com/0.1.0/ps/1703505/580/386/m1/fpnw/wm0/sale-sales-ticket-letter-s-logo-03-.jpg?1611079569&s=1a4c3f3c0e795574230449651f7b732f"
+    }
+  ],
+  "Managers": [
+    {
+      "Name": "Hassan",
+      "Position": "HR Manager",
+      "id": 5
+    },
+    {
+      "Name": "Sameh",
+      "Position": "Sales Manager",
+      "id": 6
+    },
+    {
+      "Name": "Osama",
+      "Position": "General Manager",
+      "id": 7
+    }
+  ]
+}

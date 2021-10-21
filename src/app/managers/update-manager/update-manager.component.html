@@ -1,0 +1,31 @@
+<h1 class="text-center text-info mt-5 mb-5">Update Manager</h1>
+<div class="container col-md-6">
+  <div class="card">
+    <div class="card-body">
+      <div class="form-group">
+        <label>Name</label>
+        <input #name='ngModel' required [(ngModel)]= "object.Name" placeholder="Enter your name" type="text" class="form-control">
+        <div *ngIf="name.touched && name.invalid" class="alert alert-danger">
+          Please enter a valid name
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Position</label>
+        <input #position='ngModel' required [(ngModel)]= "object.Position" placeholder="Enter your position" type="text" class="form-control">
+        <div *ngIf="position.touched && position.invalid" class="alert alert-danger">
+          Please enter a valid position
+        </div>
+      </div>
+      <div *ngIf="name.valid && position.valid">
+        <button (click)="update()" class="btn btn-block btn-info">Save data</button>
+      </div>
+
+
+      <div *ngIf="name.invalid || position.invalid">
+        <button disabled class="btn btn-block btn-info">Save data</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+

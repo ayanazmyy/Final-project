@@ -1,0 +1,27 @@
+<h1 class="text-center text-info mt-5 mb-5">List of employees</h1>
+<div class="container col-md-6">
+  <div class="card">
+    <div class="card-body">
+      <table class="table table-dark">
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Action</th>
+        </tr>
+        <tr *ngFor= "let manager of allData">
+          <th>{{manager.id}}</th>
+          <th>{{manager.Name}}</th>
+          <th>{{manager.Position}}</th>
+          <th>
+            <a routerLink="/updateManager/{{manager.id}}" class="btn btn-info">Edit</a>
+          </th>
+          <th>
+            <button (click)="remove(manager.id)" class="btn btn-danger">Remove</button>
+          </th>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
